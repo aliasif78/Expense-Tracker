@@ -1,0 +1,18 @@
+nav {
+    box-shadow: 0 6px 6px 0px rgba(0, 0, 0, 0.1), 0 2px 16px 0px rgba(0, 0, 0, 0.06);
+}
+
+.gradientCircle
+{
+    background-image: linear-gradient(to top, rgb(0, 34, 255), rgb(0, 229, 255));
+}
+
+.gradientCircle:hover
+{
+    background-image: none;
+}
+
+.profile > img, .profile > div
+{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}

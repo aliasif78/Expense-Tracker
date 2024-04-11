@@ -1,0 +1,25 @@
+.myLoans::-webkit-scrollbar {
+    height: 1vh;
+    width: 1vw;
+}
+
+.myLoans::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Color of the scrollbar track */
+}
+
+.myLoans::-webkit-scrollbar-thumb {
+    background: #b7b7b7;
+    /* Color of the scrollbar thumb */
+    border-radius: 4px;
+    /* Rounded corners of the thumb */
+}
+
+.myLoans::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Color of the thumb on hover */
+}
+
+.loan > img {
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3);
+}

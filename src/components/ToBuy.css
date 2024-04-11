@@ -1,0 +1,26 @@
+.item {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.items::-webkit-scrollbar {
+    height: 1vh;
+    width: 1vw;
+}
+
+.items::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Color of the scrollbar track */
+}
+
+.items::-webkit-scrollbar-thumb {
+    background: #b7b7b7;
+    /* Color of the scrollbar thumb */
+    border-radius: 4px;
+    /* Rounded corners of the thumb */
+}
+
+.items::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Color of the thumb on hover */
+}

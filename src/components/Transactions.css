@@ -1,0 +1,37 @@
+.transaction > div > img
+{
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.transactions > div > button
+{
+    background-image: linear-gradient(to top, rgb(0, 34, 255), rgb(0, 229, 255));
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.transactions > div > button:hover
+{
+    background-image: none;
+}
+
+.box2::-webkit-scrollbar {
+    /* height: 1vh; */
+    width: 0.4vw;
+}
+
+.box2::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Color of the scrollbar track */
+}
+
+.box2::-webkit-scrollbar-thumb {
+    background: #b7b7b7;
+    /* Color of the scrollbar thumb */
+    border-radius: 4px;
+    /* Rounded corners of the thumb */
+}
+
+.box2::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Color of the thumb on hover */
+}
